@@ -163,10 +163,12 @@ const ArticleSummarizer = () => {
             </Box>
           </Flex>
 
-          {/* 👇 Footer at bottom of full-page card */}
           <Box textAlign="center" mt="auto" py={4}>
             <Text fontSize="sm" color="whiteAlpha.700">
-              Built with 💙 using Chakra UI + Vite
+              Built with 💙 by <a href="https://lakunle.netlify.app/">Lakunle</a> using Chakra UI + Vite
+            </Text>
+            <Text fontSize="sm" color="whiteAlpha.700">
+              Github Code for this project is at <a href="https://github.com/LakunleD/ArticleSummarizer">here</a>
             </Text>
           </Box>
         </Flex>
